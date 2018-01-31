@@ -1,0 +1,222 @@
+html, body, header, footer, hgroup, nav, article, section, figure, 
+figcaption, h1, h2, h3, ul, li, body, div, p, img {
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+   vertical-align: baseline;
+   border: 0;
+   font-family: Arial,sans-serif;
+}
+
+body{
+	background-color: black;
+}
+
+header,footer{
+	background-color: #18453b;
+}
+.header_picture,.footer_picture{
+	width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+.align_text {
+	vertical-align: top;
+    display: inline-block;
+    text-align: right;
+}
+
+.header_picture{
+	display: block;
+	padding-top: 1em;
+	margin-right: auto;
+    margin-left: auto;
+}
+
+.align_text a{
+	display: block;
+	//margin-left: auto;
+	//margin-right: auto;
+	text-align: right;
+
+}
+footer .footer_picture{
+	display: block;
+	padding-top: 1em;
+	padding-bottom: 2em;
+	margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+header{
+	color: white;
+	text-align: center;
+	font-style: italic;
+}
+
+header h1{
+	font-size: 150%;
+	padding-bottom: 1em;
+	padding-top: 1em;
+}
+
+header nav{
+	text-align: right;
+	margin-left: auto;
+	padding-top: 1em;
+	font-size: 100%;
+	vertical-align: middle;
+	font-style: bold;
+}
+
+body .middle_content{
+	background-color: #97a2a2;
+	text-align: center;
+	display: block;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+.middle_content form{
+	border: thin solid black;
+	background-color: #0db14b;
+	display: block;
+    padding-top: 1em;
+    margin-right: auto;
+    margin-left: auto;
+    width:56%;
+	
+
+}
+
+.middle_content form p{
+	color: white;
+	padding: .5em;
+	
+
+}
+
+.middle_content select{
+	width:35%;
+}
+
+.middle_content input{
+	width:35%;
+}
+
+#start_button{
+	margin-bottom: 1em;
+}
+
+#name_move{
+	text-align: left;
+	margin-left: 31.5%;
+	margin-bottom: -1em;
+}
+
+#new_game a{
+	display: inline;
+}
+
+#game_buttons input{
+	width: 12em;
+	text-align: center;
+	margin:auto;
+
+}
+
+#game_buttons p{
+    display: inline;
+}
+
+#game_buttons{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1em;
+	margin-top: 1em;
+}
+table{
+	border: thick solid black;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	border-collapse: collapse;
+}
+
+table tr td{
+	width: 1.5em;
+    height: 1.5em;
+    font-size: 2em;
+    border: thin solid black;
+    text-align: center;
+}
+
+.game_body{
+	background-color: #97a2a2;
+}
+
+.table_section{
+	padding-top: 1em;
+}
+
+body .table_section p{
+	padding-top: 1em;
+	padding-bottom: 2em;
+	text-align: center;
+	color: white;
+}
+
+body .gray_back{
+	background-color: #97a2a2;
+	padding-left: 15%;
+	padding-right: 15%;
+	padding-top: .2em;
+	padding-bottom: 1em;
+}
+
+body .green_area{
+	background-color:#94ea4a ;
+	margin-top: .5em;
+	display: block;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+body .green_area h2{
+	border-bottom-style: solid;
+	vertical-align: middle;
+	border-bottom-width: 2px;
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+#solved {
+	margin-top: 1.5em;
+	margin-left: 22.5%;
+}
+
+body .green_area p{
+	margin-left:1em;
+	margin-right: 1em;
+}
+
+body .green_area ul{
+	padding-left: 3em;
+}
+
+body .green_area p{
+	padding-bottom: 1em;
+}
+
+body .green_area ul{
+	padding-bottom: 1em;
+}
+ 
+.sea{
+	background-color: blue;
+}
